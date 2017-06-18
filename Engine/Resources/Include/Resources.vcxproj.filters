@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Manager">
+      <UniqueIdentifier>{e9895e98-f2f9-4336-9f9f-bd5c8baef792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource">
+      <UniqueIdentifier>{931f5fe0-c9dc-4367-8f4a-b8fb2207f0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\1. Mesh">
+      <UniqueIdentifier>{b9a02db3-2b11-48f4-9083-813b201348da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\1. Mesh\StaticMesh">
+      <UniqueIdentifier>{2dce2531-ecb6-4827-9c4b-b25aa11a7f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\1. Mesh\DynamicMesh">
+      <UniqueIdentifier>{76bb9192-0b91-4dde-b8c6-7a99af93c80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\1. Mesh\DynamicMesh\AniCtrl">
+      <UniqueIdentifier>{3503cfe6-cbe3-4de2-9558-b527a68d962d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\1. Mesh\DynamicMesh\Loader">
+      <UniqueIdentifier>{b77c49a4-d7b3-4651-8bbb-71a534b11ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\3. Texture">
+      <UniqueIdentifier>{353d3b00-dc08-47f8-bd43-d855dfd691f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\2. Buffer">
+      <UniqueIdentifier>{637e35af-5ca1-4702-9109-9c31eb565df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\2. Buffer\1. RcTex">
+      <UniqueIdentifier>{cb9155a3-1189-4dbe-b09c-7acc7edb6f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\2. Buffer\2. CubeColor">
+      <UniqueIdentifier>{6b063a9f-b749-4d88-a1fc-7bf267e15fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Resource\2. Buffer\3. Sphere">
+      <UniqueIdentifier>{f6a6060b-874a-4bfd-a1d4-cd4aee1855c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Export">
+      <UniqueIdentifier>{3db9f21a-e719-4954-8f52-b3aaad06bdb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\ResourceMgr.cpp">
+      <Filter>1. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Resource.cpp">
+      <Filter>2. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mesh.cpp">
+      <Filter>2. Resource\1. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMesh.cpp">
+      <Filter>2. Resource\1. Mesh\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicMesh.cpp">
+      <Filter>2. Resource\1. Mesh\DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniCtrl.cpp">
+      <Filter>2. Resource\1. Mesh\DynamicMesh\AniCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HierarchyLoader.cpp">
+      <Filter>2. Resource\1. Mesh\DynamicMesh\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Texture.cpp">
+      <Filter>2. Resource\3. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VIBuffer.cpp">
+      <Filter>2. Resource\2. Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcTex.cpp">
+      <Filter>2. Resource\2. Buffer\1. RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeColor.cpp">
+      <Filter>2. Resource\2. Buffer\2. CubeColor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SphereColor.cpp">
+      <Filter>2. Resource\2. Buffer\3. Sphere</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\ResourceMgr.h">
+      <Filter>1. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Resource.h">
+      <Filter>2. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mesh.h">
+      <Filter>2. Resource\1. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticMesh.h">
+      <Filter>2. Resource\1. Mesh\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicMesh.h">
+      <Filter>2. Resource\1. Mesh\DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniCtrl.h">
+      <Filter>2. Resource\1. Mesh\DynamicMesh\AniCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HierarchyLoader.h">
+      <Filter>2. Resource\1. Mesh\DynamicMesh\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Texture.h">
+      <Filter>2. Resource\3. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VIBuffer.h">
+      <Filter>2. Resource\2. Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcTex.h">
+      <Filter>2. Resource\2. Buffer\1. RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeColor.h">
+      <Filter>2. Resource\2. Buffer\2. CubeColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SphereColor.h">
+      <Filter>2. Resource\2. Buffer\3. Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_Resources.h">
+      <Filter>9. Export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Resources.inl">
+      <Filter>9. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

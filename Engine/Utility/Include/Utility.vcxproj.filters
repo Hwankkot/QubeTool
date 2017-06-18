@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Management">
+      <UniqueIdentifier>{43261327-06c5-4a8c-abf0-ece83e240ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Renderer">
+      <UniqueIdentifier>{aea82288-4509-483d-bed9-1b87178fa8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass">
+      <UniqueIdentifier>{c458f9cd-2020-44f4-a3db-d699ade75acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\1. Scene">
+      <UniqueIdentifier>{5ba78dbd-5da8-42d5-9c9b-3d94497e2da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\1. Scene\Layer">
+      <UniqueIdentifier>{0c5fd62b-4b1b-4220-a675-7f0b7b6ee3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\2. GameObject">
+      <UniqueIdentifier>{26c55fd6-6b14-44d9-9be5-25a815224ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\4. Camera">
+      <UniqueIdentifier>{cec7d160-af4a-4ccb-a017-cafc65c35aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\3. Component">
+      <UniqueIdentifier>{d91fbcfc-cd3a-45d0-822a-33577760430c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\3. Component\Transform">
+      <UniqueIdentifier>{b5dded88-1b88-4e7f-bb9b-224f425eb747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\3. Component\Collision">
+      <UniqueIdentifier>{8bc995ef-8aaf-4234-9205-d413927032b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. SuperClass\3. Component\Collision\RayCollision">
+      <UniqueIdentifier>{d687a54c-572e-460a-b61e-b0860d773d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Export">
+      <UniqueIdentifier>{aad6bf55-37f0-4116-b47c-2bfee7f83cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager">
+      <UniqueIdentifier>{6d55308c-254f-4c8e-a0dc-56454367ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager\LightMgr">
+      <UniqueIdentifier>{0a1ddfad-e83c-4f3d-957d-ce5f19faea5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager\LightMgr\Light">
+      <UniqueIdentifier>{290dc894-65d1-441c-8496-5fa56036f5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager\NavMgr">
+      <UniqueIdentifier>{ebafa064-1fd2-4c3e-903c-f050fecdb2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager\NavMgr\NavCell">
+      <UniqueIdentifier>{d49a9f9e-e8f6-44df-9ba5-2a5d9387b080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Manager\NavMgr\NavCell\Line2D">
+      <UniqueIdentifier>{abf2efaf-1679-45d6-b934-832ad0625ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Optimization">
+      <UniqueIdentifier>{c5053ca7-3f8d-4c9b-96a1-4d7f907a6247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Optimization\Frustum">
+      <UniqueIdentifier>{f875332f-fa6a-437a-948c-848b6b852759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Optimization\QuadTree">
+      <UniqueIdentifier>{4091079c-14c2-4312-895e-fe11ba698aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Design">
+      <UniqueIdentifier>{e6d53e94-a2e6-4222-8021-9a02982d8342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Design\Observer">
+      <UniqueIdentifier>{729a1dff-5970-497c-8572-f8274964160f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Design\Observer\Observer">
+      <UniqueIdentifier>{5ff3d8d4-5b3c-42ba-8e89-807eed686d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Design\Observer\Subject">
+      <UniqueIdentifier>{6e550979-30a9-45da-ae0b-0bf4cfa4f721}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Management.cpp">
+      <Filter>1. Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Renderer.cpp">
+      <Filter>2. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene.cpp">
+      <Filter>3. SuperClass\1. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Layer.cpp">
+      <Filter>3. SuperClass\1. Scene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameObject.cpp">
+      <Filter>3. SuperClass\2. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera.cpp">
+      <Filter>3. SuperClass\4. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component.cpp">
+      <Filter>3. SuperClass\3. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Transform.cpp">
+      <Filter>3. SuperClass\3. Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Collision.cpp">
+      <Filter>3. SuperClass\3. Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RayCollision.cpp">
+      <Filter>3. SuperClass\3. Component\Collision\RayCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightMgr.cpp">
+      <Filter>4. Manager\LightMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Light.cpp">
+      <Filter>4. Manager\LightMgr\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavMgr.cpp">
+      <Filter>4. Manager\NavMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavCell.cpp">
+      <Filter>4. Manager\NavMgr\NavCell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Line2D.cpp">
+      <Filter>4. Manager\NavMgr\NavCell\Line2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frustum.cpp">
+      <Filter>5. Optimization\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\QuadTree.cpp">
+      <Filter>5. Optimization\QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Observer.cpp">
+      <Filter>6. Design\Observer\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Subject.cpp">
+      <Filter>6. Design\Observer\Subject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Management.h">
+      <Filter>1. Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Renderer.h">
+      <Filter>2. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene.h">
+      <Filter>3. SuperClass\1. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Layer.h">
+      <Filter>3. SuperClass\1. Scene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameObject.h">
+      <Filter>3. SuperClass\2. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera.h">
+      <Filter>3. SuperClass\4. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component.h">
+      <Filter>3. SuperClass\3. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Transform.h">
+      <Filter>3. SuperClass\3. Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Collision.h">
+      <Filter>3. SuperClass\3. Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RayCollision.h">
+      <Filter>3. SuperClass\3. Component\Collision\RayCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_Utility.h">
+      <Filter>9. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightMgr.h">
+      <Filter>4. Manager\LightMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Light.h">
+      <Filter>4. Manager\LightMgr\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\NavMgr.h">
+      <Filter>4. Manager\NavMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\NavCell.h">
+      <Filter>4. Manager\NavMgr\NavCell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Line2D.h">
+      <Filter>4. Manager\NavMgr\NavCell\Line2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frustum.h">
+      <Filter>5. Optimization\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\QuadTree.h">
+      <Filter>5. Optimization\QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Observer.h">
+      <Filter>6. Design\Observer\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Subject.h">
+      <Filter>6. Design\Observer\Subject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Utility.inl">
+      <Filter>9. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

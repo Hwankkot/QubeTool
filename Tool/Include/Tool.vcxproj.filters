@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2. Headers">
+      <UniqueIdentifier>{d53a55ee-d2ca-4974-9015-5720d8aa02e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main">
+      <UniqueIdentifier>{b61014f3-127c-44fe-bc25-11852a1af5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\4. MainApp">
+      <UniqueIdentifier>{91376e5d-6679-4e39-8d84-21b336f3e58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\2. View">
+      <UniqueIdentifier>{36792ed8-ac5b-41c6-bac6-4e57bbeea66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\2. View\1. MainView">
+      <UniqueIdentifier>{7a9b4013-6213-4376-8c3d-307de0d4b405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\2. View\2. ControlView">
+      <UniqueIdentifier>{8e3a65fc-050f-4537-86fd-745198b167d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\1. MainFrame">
+      <UniqueIdentifier>{a52ba8a3-6033-41d8-a543-ad64cd8c7cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object">
+      <UniqueIdentifier>{3aa0cec8-50e8-46a5-923c-e0f154b115b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Scenery">
+      <UniqueIdentifier>{bc22aa88-1191-465b-8967-e945c60bf599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\FreeCam">
+      <UniqueIdentifier>{c30a6217-e2c0-4150-b84b-9c45ec9827ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube">
+      <UniqueIdentifier>{037f1a15-1aeb-4410-881e-48ecb7057752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\WhiteCube">
+      <UniqueIdentifier>{c80aa339-c510-41c7-a8f7-5a7dcbfa250a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\GreenCube">
+      <UniqueIdentifier>{4ecf7391-2680-45d4-a0ef-b05dba4b6cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\PurpleCube">
+      <UniqueIdentifier>{6682679f-f5de-4825-a6ea-6b9812eab73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\OrangeCube">
+      <UniqueIdentifier>{2ae8315a-0a8a-4618-a395-3ca102eb4a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\CubeWall">
+      <UniqueIdentifier>{7c57ca77-5147-4625-ab71-5ec4ef3b2485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\GrayCube">
+      <UniqueIdentifier>{dc007ac9-9f6a-4a8c-949c-d0abfb2b7cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\BlueCube">
+      <UniqueIdentifier>{28f9943a-de55-4ff5-9fb2-bbbeb3dee016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\RedCube">
+      <UniqueIdentifier>{fccff5be-978e-43e0-9778-dd981041a124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\Cube\YellowCube">
+      <UniqueIdentifier>{9dce5194-1b0a-4e62-8fc1-83afb1cd887f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\6. Object\InputUnit">
+      <UniqueIdentifier>{69ebac64-2045-474f-8ffe-12a2bd7de197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\5. Scene">
+      <UniqueIdentifier>{9df3147b-6f9e-4f08-9b4d-de6a46ea9ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\5. Scene\2. Stage">
+      <UniqueIdentifier>{7a06ab1a-8a38-452e-9d48-301d76b93413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\5. Scene\1. Logo">
+      <UniqueIdentifier>{d248b5fa-d36b-4232-8643-10e9b205754d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\5. Scene\9. Loading">
+      <UniqueIdentifier>{fbfa5eb6-874c-4352-90ae-d45789c0c440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design">
+      <UniqueIdentifier>{1aaf8c8b-80cb-4a06-87c9-47f5efa778c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer">
+      <UniqueIdentifier>{a0ee7d76-a2ca-49a5-8751-cb26bd70cd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\Mouse">
+      <UniqueIdentifier>{c372d6ba-2448-4ea8-8ae6-c124154ad354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\Mouse\MouseSubject">
+      <UniqueIdentifier>{c6cd758a-9e1c-4ef5-a3c2-5a78a8347ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\Mouse\MouseObserver">
+      <UniqueIdentifier>{98650eb4-55e8-4c94-afda-1f298f5af17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\MapEdit">
+      <UniqueIdentifier>{41e902dc-fb65-4478-9de6-03007d9449f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\MapEdit\MapEditObserver">
+      <UniqueIdentifier>{117c937e-787f-44c1-a319-99faa35457c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\7. Design\1. Observer\MapEdit\MapEditSubject">
+      <UniqueIdentifier>{fe024050-6e9f-462f-b05a-7a6af157965c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\3. Dialog">
+      <UniqueIdentifier>{9853ae0b-3c97-4876-9ee6-b162cca52d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\3. Dialog\MapEdit">
+      <UniqueIdentifier>{357a9ad4-1512-4677-b207-9bbbeb9f4777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. Default">
+      <UniqueIdentifier>{78ed9e19-938e-4865-a0ba-362bb9e0a566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="0. Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="0. Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Value.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>1. Main\4. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="MainView.h">
+      <Filter>1. Main\2. View\1. MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlView.h">
+      <Filter>1. Main\2. View\2. ControlView</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>1. Main\1. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scenery.h">
+      <Filter>1. Main\6. Object\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FreeCam.h">
+      <Filter>1. Main\6. Object\FreeCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cube.h">
+      <Filter>1. Main\6. Object\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WhiteCube.h">
+      <Filter>1. Main\6. Object\Cube\WhiteCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GreenCube.h">
+      <Filter>1. Main\6. Object\Cube\GreenCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PurpleCube.h">
+      <Filter>1. Main\6. Object\Cube\PurpleCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OrangeCube.h">
+      <Filter>1. Main\6. Object\Cube\OrangeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeWall.h">
+      <Filter>1. Main\6. Object\Cube\CubeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GrayCube.h">
+      <Filter>1. Main\6. Object\Cube\GrayCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BlueCube.h">
+      <Filter>1. Main\6. Object\Cube\BlueCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RedCube.h">
+      <Filter>1. Main\6. Object\Cube\RedCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\YellowCube.h">
+      <Filter>1. Main\6. Object\Cube\YellowCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InputUnit.h">
+      <Filter>1. Main\6. Object\InputUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SelectScene.h">
+      <Filter>1. Main\5. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>1. Main\5. Scene\2. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>1. Main\5. Scene\1. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>1. Main\5. Scene\9. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MouseSubject.h">
+      <Filter>1. Main\7. Design\1. Observer\Mouse\MouseSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MouseObserver.h">
+      <Filter>1. Main\7. Design\1. Observer\Mouse\MouseObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MapEditObserver.h">
+      <Filter>1. Main\7. Design\1. Observer\MapEdit\MapEditObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MapEditSubject.h">
+      <Filter>1. Main\7. Design\1. Observer\MapEdit\MapEditSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdit.h">
+      <Filter>1. Main\3. Dialog\MapEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>0. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>0. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>0. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>0. Default\헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>1. Main\4. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView.cpp">
+      <Filter>1. Main\2. View\1. MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlView.cpp">
+      <Filter>1. Main\2. View\2. ControlView</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>1. Main\1. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scenery.cpp">
+      <Filter>1. Main\6. Object\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FreeCam.cpp">
+      <Filter>1. Main\6. Object\FreeCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cube.cpp">
+      <Filter>1. Main\6. Object\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WhiteCube.cpp">
+      <Filter>1. Main\6. Object\Cube\WhiteCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GreenCube.cpp">
+      <Filter>1. Main\6. Object\Cube\GreenCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PurpleCube.cpp">
+      <Filter>1. Main\6. Object\Cube\PurpleCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OrangeCube.cpp">
+      <Filter>1. Main\6. Object\Cube\OrangeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeWall.cpp">
+      <Filter>1. Main\6. Object\Cube\CubeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GrayCube.cpp">
+      <Filter>1. Main\6. Object\Cube\GrayCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BlueCube.cpp">
+      <Filter>1. Main\6. Object\Cube\BlueCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RedCube.cpp">
+      <Filter>1. Main\6. Object\Cube\RedCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\YellowCube.cpp">
+      <Filter>1. Main\6. Object\Cube\YellowCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InputUnit.cpp">
+      <Filter>1. Main\6. Object\InputUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>1. Main\5. Scene\2. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>1. Main\5. Scene\1. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>1. Main\5. Scene\9. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MouseSubject.cpp">
+      <Filter>1. Main\7. Design\1. Observer\Mouse\MouseSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MouseObserver.cpp">
+      <Filter>1. Main\7. Design\1. Observer\Mouse\MouseObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapEditObserver.cpp">
+      <Filter>1. Main\7. Design\1. Observer\MapEdit\MapEditObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapEditSubject.cpp">
+      <Filter>1. Main\7. Design\1. Observer\MapEdit\MapEditSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEdit.cpp">
+      <Filter>1. Main\3. Dialog\MapEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>0. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>0. Default\소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>0. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>0. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>0. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>0. Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
